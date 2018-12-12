@@ -19,7 +19,7 @@
   <grid_spacing>10</grid_spacing>
   <grid_size>1000</grid_size>
 
-  <!--<terrain>mcmillan</terrain>-->
+  <terrain>ElliottField</terrain>
   <background_color>191 191 191</background_color> <!-- Red Green Blue -->
   <gui_update_period>10</gui_update_period> <!-- milliseconds -->
 
