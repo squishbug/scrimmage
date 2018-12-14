@@ -327,7 +327,7 @@ bool External::step(double t) {
     // Send shapes over configured grpc network interfaces
     for (auto interface : outgoing_interfaces_) {
         interface->send_shapes(shapes);
-        interface->send_frame(t, entity_->contacts());
+        //interface->send_frame(t, entity_->contacts());
     }
 
     mutex.unlock();
